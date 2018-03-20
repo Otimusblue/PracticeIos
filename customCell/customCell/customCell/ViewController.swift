@@ -20,8 +20,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
       
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewControllerTableViewCell
-        cell.myImage = UIImage(named: (animals[indexPath.row] + ".jpg"))
-        cell.myLabel =
+//        cell.myImage.image =  UIImage(named: (animals[indexPath.row] + ".jpg"))
+//        cell.myLabel.text = animals[indexPath.row]
+        cell.myImage.image = UIImage(named: (animals[indexPath.row] + ".jpg"))
+        cell.myLabel.text = animals[indexPath.row]
+        return(cell)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

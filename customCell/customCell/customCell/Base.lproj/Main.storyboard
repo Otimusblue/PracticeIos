@@ -68,8 +68,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
-                            <outlet property="myImage" destination="KL0-1f-rZt" id="hoQ-mX-9Th"/>
-                            <outlet property="myLabel" destination="KL0-1f-rZt" id="Mjv-I6-EPd"/>
+                            <outlet property="myImage" destination="2ru-Mh-rMp" id="mqc-du-q7b"/>
+                            <outlet property="myLabel" destination="lfo-t8-gIl" id="Wyr-r1-vCF"/>
                         </connections>
                     </view>
                 </viewController>
